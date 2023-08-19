@@ -1,5 +1,5 @@
 // Fecha objetivo en el formato: Año, Mes (0-11), Día, Hora, Minuto, Segundo
-var targetDate = new Date("2023-08-12T10:00:00").getTime();
+var targetDate = new Date("2023-08-24T20:00:00").getTime();
 
 // Función para actualizar el contador
 function updateCountdown() {
