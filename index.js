@@ -1,5 +1,5 @@
 // Fecha objetivo en el formato: Año, Mes (0-11), Día, Hora, Minuto, Segundo
-var targetDate = new Date("2023-08-24T20:00:00").getTime();
+var targetDate = new Date("2024-08-12T00:00:00").getTime();
 
 // Función para actualizar el contador
 function updateCountdown() {
@@ -8,7 +8,8 @@ function updateCountdown() {
 
     if (timeRemaining <= 0) {
         // Si la fecha objetivo ha pasado, muestra un mensaje
-        document.getElementById("countdown").innerHTML = "¡Tiempo cumplido!";
+        document.getElementById("countdown").innerHTML = "YA ES HOY!";
+        document.getElementById("es-hoy").style.display="block";
     } else {
         // Calcula los días, horas, minutos y segundos restantes
         var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));

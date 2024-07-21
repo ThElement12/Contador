@@ -1,10 +1,17 @@
 body {
-  background-color: navy;
+  background-color: rgb(114, 0, 0);
   color: white;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
 }
 
 p {
   font-size: xx-large;
+}
+.otras-fotos{
+  display: block;
+}
+#es-hoy {
+  display: none;
+  height: auto;
 }
